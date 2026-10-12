@@ -39,6 +39,7 @@ A curated list of practical Claude Skills for enhancing productivity across Clau
   - [Productivity & Organization](#productivity--organization)
   - [Collaboration & Project Management](#collaboration--project-management)
   - [Security & Systems](#security--systems)
+  - [Vendored Third-Party Skills](#vendored-third-party-skills)
 - [Getting Started](#getting-started)
 - [Creating Skills](#creating-skills)
 - [Contributing](#contributing)
@@ -130,6 +131,17 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 - [file-deletion](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/file-deletion) - Secure file deletion and data sanitization methods.
 - [metadata-extraction](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/metadata-extraction) - Extract and analyze file metadata for forensic purposes.
 - [threat-hunting-with-sigma-rules](https://github.com/jthack/threat-hunting-with-sigma-rules-skill) - Use Sigma detection rules to hunt for threats and analyze security events.
+
+### Vendored Third-Party Skills
+
+Copies of outside skills kept in [`third-party/`](./third-party/), with licences, upstream commits, vetting notes and install steps in [its README](./third-party/README.md).
+
+- [K-Dense scientific skills](./third-party/k-dense-scientific/) - 22 picks for stats (statsmodels, PyMC, power, experimental design), spatial (GeoPandas, GeoMaster), time series (aeon, TimesFM), big data (Polars, Dask, Zarr) and literature work. *By [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills)*
+- [Copernicus Climate](./third-party/scienceclaw/copernicus-climate/) - Pulls ERA5 reanalysis and CMIP data from the Copernicus Climate Data Store. *From [scienceclaw](https://github.com/beita6969/scienceclaw)*
+- [Epidemiology](./third-party/scienceclaw/epidemiology/) - Checklist for study design, measures of association, DAGs and compartmental models. *From [scienceclaw](https://github.com/beita6969/scienceclaw)*
+- [Superpowers](./third-party/superpowers/) - Plan-first, test-driven coding with subagent execution. *By [obra](https://github.com/obra/superpowers)*
+- [Agent Skills](./third-party/agent-skills/) - Spec-driven development, incremental implementation and other engineering-lifecycle skills. *By [Addy Osmani](https://github.com/addyosmani/agent-skills)*
+- [Taste Skill](./third-party/taste-skill/) - Steers front-end and dashboard output away from generic-looking UI. *By [Leonxlnx](https://github.com/Leonxlnx/taste-skill)*
 
 ## Getting Started
 
